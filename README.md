@@ -1,17 +1,12 @@
 # Analisis Kondisi Bisnis TheLook dengan SQL (BigQuery)
 
-<!--
-CARA MEMAKAI TEMPLATE INI
-- Ganti semua teks dalam <...> dengan isimu sendiri, lalu hapus komentar ini.
-- Temuan diambil dari Proyek SQL yang dikerjakan bersama di sesi 4 (query P1, P2, P3).
-- Tulis dengan kata-katamu sendiri, dan pilih satu bahasa (Indonesia atau Inggris).
--->
-
-**<Nama lengkap>** · <link LinkedIn>
+Oleh 
+Sabrina Ghaida Fauziyyah 
+https://www.linkedin.com/in/sabrina-ghaida/
 
 ## Ringkasan
 
-<2–3 kalimat. Contoh: "Saya menganalisis data penjualan toko pakaian online TheLook menggunakan SQL di BigQuery. Pendapatan 12 bulan terakhir naik X%, tetapi Y% pelanggan hanya berbelanja sekali. Saya merekomendasikan program untuk mendorong pembelian kedua.">
+Ini proyek latihan SQL saya di Google BigQuery. Saya menggunakan dataset e-commerce sintetis TheLook untuk belajar mengelompokkan data pengguna, menghitung jumlah pengguna per kanal, dan menafsirkan hasilnya guna menjawab pertanyaan bisnis sederhana.
 
 ## Pertanyaan bisnis
 
@@ -42,21 +37,21 @@ Manajemen TheLook ingin mengetahui:
 
 <Dari query P3.>
 
-> Tip: tambahkan screenshot tabel hasil query (atau grafik dari tab **Chart** BigQuery) ke folder `images/`, lalu tampilkan dengan `![deskripsi](images/nama_file.png)`.
+> Tip: tambahkan screenshot tabel hasil query (atau grafik dari tab **Chart** di BigQuery) ke folder `images/`, lalu tampilkan dengan `![deskripsi](images/nama_file.png)`.
 
 ## Rekomendasi
 
 
 ## Keterbatasan
 
-- Data TheLook bersifat sintetis, sehingga pola tertentu mungkin tidak mencerminkan perilaku pelanggan sungguhan.
+- Analisis ini menghitung jumlah pengguna berdasarkan sumber traffic yang tercatat pada tabel users. Jumlah kunjungan dan pembelian per kanal memerlukan data tambahan. Karena dataset TheLook bersifat sintetis, hasilnya digunakan untuk latihan analisis.
 - <keterbatasan lain>
 
 ## Isi repository
 
 | File | Isi |
 | --- | --- |
-| [`sql/01_basics.sql`](sql/01_basics.sql) | Eksplorasi tabel, filter, dan pengurutan |
+| [`analysis-01.sql`](./analysis-01.sql) | Eksplorasi tabel, filter, dan pengurutan |
 | [`sql/02_aggregation.sql`](sql/02_aggregation.sql) | Agregasi: pendapatan per kategori, pelanggan per negara, top 10 brand |
 | [`sql/03_joins.sql`](sql/03_joins.sql) | JOIN: pendapatan per kategori, negara, umur, dan gender |
 | [`sql/04_dates_case_cte.sql`](sql/04_dates_case_cte.sql) | Tren bulanan, CASE WHEN, CTE, dan **Proyek SQL** (P1–P3) |
