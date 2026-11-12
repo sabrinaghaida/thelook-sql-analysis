@@ -1,5 +1,3 @@
-# thelook-sql-analysis
-Analisis kondisi bisnis TheLook E-commerce menggunakan SQL
 # Analisis Kondisi Bisnis TheLook dengan SQL (BigQuery)
 
 <!--
